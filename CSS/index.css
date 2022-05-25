@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: rgb(153, 56, 243);
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,12 +12,14 @@ body {
 }
 
 .title {
-    background-color: rgb(153, 56, 243);
+    background-color: #b8aec8;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 12px;
+    gap: 150px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -36,22 +38,42 @@ ul,
 }
 
 a {
-    color: black;
+    color: rgb(219, 28, 237);
     text-decoration: none;
     font-size: 20px;
 }
 
 .title_1 {
     flex-direction: column;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .title_2 {
     flex-direction: column;
-    max-width: 300px;
+    max-width: 450px;
 }
 
 button {
-    width: 100px;
+    transition: 0.25s;
+    width: 125px;
     height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(218, 63, 238);
+    font-size: 16px;
+}
+
+button:hover {
+    transition: 0.25s;
+    background-color: #a57fe1;
+    box-shadow: -5px 8px rgb(51, 51, 51);
+}
+
+button:after {
+    transition: 0.25s;
+}
+
+.title_p {
+    font-size: 18px;
+    color: black;
 }
