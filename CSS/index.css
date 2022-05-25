@@ -11,12 +11,23 @@ body {
     padding: 16px;
 }
 
+.title {
+    background-color: rgb(153, 56, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
 .logo {
     width: auto;
     height: 50px;
 }
 
-ul {
+ul,
+.title_1,
+.title_2 {
     display: flex;
     list-style: none;
     margin: 0;
@@ -28,4 +39,19 @@ a {
     color: black;
     text-decoration: none;
     font-size: 20px;
+}
+
+.title_1 {
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.title_2 {
+    flex-direction: column;
+    max-width: 300px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
 }
