@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Odibee Sans', Courier, monospace;
 }
 
 .header {
@@ -20,11 +21,6 @@ body {
     padding: 12px;
     gap: 150px;
     flex-wrap: wrap;
-}
-
-.logo {
-    width: auto;
-    height: 50px;
 }
 
 ul,
@@ -48,9 +44,14 @@ a {
     max-width: 350px;
 }
 
+.logo {
+    width: auto;
+    height: 50px;
+}
+
 .title_2 {
     flex-direction: column;
-    max-width: 450px;
+    max-width: 650px;
 }
 
 button {
@@ -76,4 +77,87 @@ button:after {
 .title_p {
     font-size: 18px;
     color: black;
+}
+
+.section2,
+.section3,
+.section4 {
+    background-color: black;
+    text-align: center;
+}
+
+.section2 {
+    padding-top: 15px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.content_img {
+    width: auto;
+    height: 250px;
+    transition: 0.25s;
+    filter: drop-shadow(5px 5px 5px rgb(135, 61, 135));
+    margin-bottom: 25px;
+}
+
+h2,
+h4,
+h5 {
+    margin: 0;
+    color: rgb(238, 63, 136);
+}
+
+.content_img:hover {
+    transition: 0.25s;
+    filter: drop-shadow(8px 8px 8px rgb(255, 0, 204));
+}
+
+.content_img:after {
+    transition: 0.25s;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: white;
+    filter: drop-shadow(2px 2px 2px rgb(255, 0, 204))
+}
+
+input {
+    width: auto;
+    box-sizing: border-box;
+    margin: 5%;
+}
+
+.register {
+    padding-top: 15px;
+}
+
+.userInfo {
+    transition: 0.25s;
+    width: 125px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(238, 63, 136);
+    font-size: 16px;
+    margin-bottom: 25px;
 }
